@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--====================== Unicons ===============-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/styleformulario.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Enterprise Sky</title>
+</head>
+<body>
+    <!--===================== Header ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Enterprise Sky</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link ">
+                            <i class="uil uil-estate"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link ">
+                            <i class="uil uil-briefcase-alt"></i> Nuestros Servicios
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="formulario.html" class="nav__link">
+                            <i class="uil uil-clipboard-alt"></i> Trabajar juntos
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="nosotros.html" class="nav__link">
+                            <i class="uil uil-users-alt"></i></i> Nosostros
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__btns">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!--===================== Formulario ====================-->
+    
+    <div class="formulario grid container">
+        
+        <div class="field">   
+            <h1 id="titulo" class="titulo">Futuros Desarrolladores Sky</h1>
+            <p id="subtitulo">Para ser parte de nuestro equipo por favor completar con su información personal </p>
+            <br>
+        </div>
+    
+        <form class="form">
+            <fieldset class="grupo">
+                <div class="field"> 
+                    <label for="Nombre"> <strong>Nombre</strong></label>
+                    <input type="text" name="Nombre" id="Nombre" required >
+                </div> 
+                
+                <div class="field">
+                    <label for="Apellido"><strong>Apellido</strong></label>
+                    <input type="text" name="Apellido" id="Apellido" required>
+                </div>          
+            </fieldset> 
+    
+            <div class="field">
+                <label for="Email"><strong>Email</strong></label>
+                <input type="email" name="Email" id="Email" required>
+            </div>
+    
+            <div class="field"> 
+                <label><strong>De cual lado de la aplicacion desarrollas?</strong></label>
+                <label>
+                    <input type="radio" name="WebDev" value="Frontend" checked> Front-end
+                </label>
+                <label>
+                    <input type="radio" name="WebDev" value="Backend"> Back-end
+                </label>
+                <label> 
+                    <input type="radio" name="WebDev" value="Fullstack"> Fullstack
+                </label>
+            </div>
+    
+            <div class="field">
+                <label for="Nivel"><strong>Nivel</strong></label>
+                <select id="Nivel">
+                    <option selected disabled value="">Elegir...</option>
+                    <option>Trainee</option>
+                    <option>Junior</option>
+                    <option>Semi Senior</option>
+                    <option>Senior</option>
+                </select>
+            </div>
+    
+            <fieldset class="grupo">
+                <div id="check">
+                    <label><strong>Selecionar las tecnologias que utilizas:</strong></label><br><br>    
+                    <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+                    <label for="tecnologia1">HTML</label>
+    
+                    <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+                    <label for="tecnologia2">CSS</label>
+    
+                    <input type="checkbox" id="tecnologia3" name="tecnologia3" value="Javascript">
+                    <label for="tecnologia3">Javascript</label>
+                    
+                    <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
+                    <label for="tecnologia4">PHP</label>
+    
+                    <input type="checkbox" id="tecnologia5" name="tecnologia5" value="C#">
+                    <label for="tecnologia5">C#</label>
+    
+                    <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Python">
+                    <label for="tecnologia6">Python</label>
+    
+                    <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Java">
+                    <label for="tecnologia1">Java</label>
+                </div>
+            </fieldset>
+    
+            <div class="field" id="__area">
+                <br>
+                <label><strong>Escriba un poco sobre su experiencia:</strong></label>
+                <textarea rows="6" style="width: 26em" id="experiencia" name="Experiencia"></textarea>
+            </div>
+             
+                <button class="__button" type="submit">Concluido</button>
+            
+    
+        </form>
+        <img src="C:\Users\david\Desktop\Parcial\assets\img\Project_76-01.jpg" alt="" class="imagen">
+    </div>
+
+    <!--===================== Footer ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+               <div>
+                   <h1 class="footer__title">Enterprise Sky</h1>
+                   <span class="footer__subtitle">Tu sistema con nosotros</span>
+               </div> 
+
+               <ul class="footer__links">
+                   <li>
+                    <a href="index.html" class="footer__link">Home</a>
+                   </li>                 
+                   <li>
+                       <a href="index.html" class="footer__link">Nuestros servicios</a>
+                   </li>
+                   <li>
+                       <a href="formulario.html" class="footer__link">Trabajemos juntos</a>
+                   </li>
+                   <li>
+                    <a href="nosotros.html" class="footer__link">Nosotros</a>
+                   </li>
+               </ul>
+
+               <div class="footer__socials">
+                   <a href="https://www.instagram.com/davi_agulham/" target="blank" class="footer__social">
+                      <i class="uil uil-instagram"></i>
+                   </a>
+
+                   <a href="https://www.linkedin.com/in/davi-agulham-7669a9204/" target="blank" class="footer__social">
+                      <i class="uil uil-linkedin"></i>
+                   </a>
+
+                   <a href="https://github.com/DaviAgulham" target="blank" class="footer__social">
+                      <i class="uil uil-github"></i>
+                  </a>
+               </div>
+            </div>
+
+            <p class="footer__copy">&#169; Agulham.</p>
+        </div>
+    </footer>
+
+    <!--===================== Main Js ====================-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
